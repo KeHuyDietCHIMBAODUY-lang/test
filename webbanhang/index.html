@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA KICKS | Bộ Sưu Tập Giày Sneakers Cao Cấp &amp; Độc Quyền</title>
+  <meta name="description"
+    content="Khám phá bộ sưu tập sneakers cao cấp, thiết kế đột phá, công nghệ êm ái tối đa. Đặt hàng ngay hôm nay nhận ưu đãi 20% cùng miễn phí vận chuyển toàn quốc.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header / Navigation -->
+  <header class="header" id="main-header">
+    <div class="container header-container">
+      <a href="#" class="logo" id="logo-link"> AURA<span>KICKS</span> </a>
+      <nav class="nav" id="main-nav">
+        <a href="#home" class="nav-link active">TRẢI NGHIỆM</a>
+        <a href="#products" class="nav-link">SẢN PHẨM</a>
+        <a href="#specifications" class="nav-link">TÍNH NĂNG</a>
+        <a href="#testimonials" class="nav-link">ĐÁNH GIÁ</a>
+      </nav>
+      <div class="header-actions">
+        </button / class="icon-btn" id="cart-toggle-btn" aria-label="Giỏ hàng">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span class="cart-badge" id="cart-count">0</span>
+        </button>
+        <a href="#products" class="btn btn-secondary btn-sm nav-cta" id="nav-cta-btn">Mua Ngay</a>
+        <button class="menu-toggle" id="menu-toggle-btn" aria-label="Menu">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav" id="mobile-nav-drawer">
+    <div class="mobile-nav-header">
+      <span class="logo">AURA<span>KICKS</span></span>
+      <button class="close-btn" id="mobile-close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <nav class="mobile-links">
+      <a href="#home" class="mobile-link">TRẢI NGHIỆM</a>
+      <a href="#products" class="mobile-link">SẢN PHẨM</a>
+      <a href="#specifications" class="mobile-link">TÍNH NĂNG</a>
+      <a href="#testimonials" class="mobile-link">ĐÁNH GIÁ</a>
+      <a href="#products" class="btn btn-primary" id="mobile-cta-btn">Mua Ngay</a>
+    </nav>
+  </div>
+  <div class="backdrop" id="nav-backdrop"></div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="badge-new" id="hero-badge">NEW ARRIVAL 2026</div>
+        <h1 class="hero-title" id="hero-heading">
+          Bước Vào <br>Tương Lai Của <span>Phong Cách</span>
+        </h1>
+        <p class="hero-text" id="hero-subtext">
+          Không có sự trải nghiệm nào cả 9999
+        </p>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary btn-lg" id="hero-primary-btn">Khám phá ngay <i
+              class="fa-solid fa-arrow-right"></i></a>
+          <a href="#specifications" class="btn btn-outline btn-lg" id="hero-secondary-btn">Tìm hiểu công nghệ</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num" id="stat-1">15K+</span>
+            <span class="stat-label">Khách Hàng</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" id="stat-2">99%</span>
+            <span class="stat-label">Hài Lòng</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" id="stat-3">24M</span>
+            <span class="stat-label">Bảo Hành</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="assets/hero.jpg" alt="Aura Air Sneaker Premium White" class="hero-img" id="hero-main-image" />
+          <div class="floating-card card-1" id="float-card-price">
+            <i class="fa-solid fa-fire"></i>
+            <div>
+              <h4>Aura Air Max</h4>
+              <p>3.200.000đ</p>
+            </div>
+          </div>
+          <div class="floating-card card-2" id="float-card-rating">
+            <i class="fa-solid fa-star"></i>
+            <div>
+              <h4>Đánh giá</h4>
+              <p>4.9 / 5.0 (2.5k+)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promotional Countdown Section -->
+  <section class="promo-countdown" id="promo-section">
+    <div class="container promo-container">
+      <div class="promo-info">
+        <h3>Ưu Đãi Ra Mắt Giới Hạn</h3>
+        <p>
+          Nhận ngay mã giảm giá đặc biệt 20% và quà tặng độc quyền khi mua bất
+          kỳ sản phẩm nào thuộc bộ sưu tập AURA.
+        </p>
+      </div>
+      <div class="countdown-timer" id="countdown-timer">
+        <div class="time-block">
+          <span class="time-val" id="days">02</span>
+          <span class="time-label">Ngày</span>
+        </div>
+        <div class="time-block">
+          <span class="time-val" id="hours">14</span>
+          <span class="time-label">Giờ</span>
+        </div>
+        <div class="time-block">
+          <span class="time-val" id="minutes">45</span>
+          <span class="time-label">Phút</span>
+        </div>
+        <div class="time-block">
+          <span class="time-val" id="seconds">30</span>
+          <span class="time-label">Giây</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Section -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-title">Bộ Sưu Tập Nổi Bật</span>
+        <h2 class="section-title">Chọn Phong Cách Của Bạn</h2>
+        <p class="section-desc">
+          Mỗi sản phẩm đều mang một cá tính độc bản và thiết kế tối ưu cho mọi
+          chuyển động.
+        </p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card" id="prod-card-1">
+          <div class="product-badge" id="badge-prod-1">Hot</div>
+          <div class="product-img-holder">
+            <img src="assets/hero.jpg" alt="Aura Air Premium White" class="product-image" />
+            <div class="product-overlay">
+              <button class="btn btn-secondary quick-view-btn" data-id="1">
+                Xem Nhanh
+              </button>
+            </div>
+          </div>
+          <div class="product-details">
+            <div class="product-meta">
+              <span class="product-cat">Sneaker Chạy Bộ</span>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <span>4.9</span>
+              </div>
+            </div>
+            <h3 class="product-title">Aura Air Premium White</h3>
+            <div class="product-price-row">
+              <div class="price">
+                <span class="new-price">3.200.000đ</span>
+                <span class="old-price">4.000.000đ</span>
+              </div>
+              <button type="button" class="add-to-cart-btn" data-id="1" data-name="Aura Air Premium White"
+                data-price="3200000" data-img="assets/hero.jpg" aria-label="Thêm vào giỏ">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card" id="prod-card-2">
+          <div class="product-badge blue" id="badge-prod-2">New</div>
+          <div class="product-img-holder">
+            <img src="assets/product1.jpg" alt="Aura Zoom Neon Black" class="product-image" />
+            <div class="product-overlay">
+              <button class="btn btn-secondary quick-view-btn" data-id="2">
+                Xem Nhanh
+              </button>
+            </div>
+          </div>
+          <div class="product-details">
+            <div class="product-meta">
+              <span class="product-cat">Sneaker Thể Thao</span>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <span>4.8</span>
+              </div>
+            </div>
+            <h3 class="product-title">Aura Zoom Neon Black</h3>
+            <div class="product-price-row">
+              <div class="price">
+                <span class="new-price">2.800.000đ</span>
+                <span class="old-price">3.500.000đ</span>
+              </div>
+              <button type="button" class="add-to-cart-btn" data-id="2" data-name="Aura Zoom Neon Black"
+                data-price="2800000" data-img="assets/product1.jpg" aria-label="Thêm vào giỏ">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card" id="prod-card-3">
+          <div class="product-badge green" id="badge-prod-3">Trending</div>
+          <div class="product-img-holder">
+            <img src="assets/product2.jpg" alt="Aura Classic Minimal Beige" class="product-image">
+            <div class="product-overlay">
+              <button type="button" class="btn btn-secondary quick-view-btn" data-id="3">
+                Xem Nhanh
+              </button>
+            </div>
+          </div>
+          <div class="product-details">
+            <div class="product-meta">
+              <span class="product-cat">Casual Sneaker</span>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <span>4.7</span>
+              </div>
+            </div>
+            <h3 class="product-title">Aura Classic Minimal Beige</h3>
+            <div class="product-price-row">
+              <div class="price">
+                <span class="new-price">2.400.000đ</span>
+                <span class="old-price">3.000.000đ</span>
+              </div>
+              <button type="button" class="add-to-cart-btn" data-id="3" data-name="Aura Classic Minimal Beige"
+                data-price="2400000" data-img="assets/product2.jpg" aria-label="Thêm vào giỏ">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specifications / Feature Spotlight -->
+  <section class="specifications" id="specifications">
+    <div class="container specifications-container">
+      <div class="spec-visual">
+        <div class="visual-glow"></div>
+        <img src="assets/hero.jpg" alt="Aura Tech Exploded View" class="spec-img" id="spec-image-zoom">
+      </div>
+      <div class="spec-content">
+        <span class="sub-title">Chất Lượng Đỉnh Cao</span>
+        <h2 class="section-title">Thiết Kế Đột Phá Bứt Phá Giới Hạn</h2>
+        <p class="section-desc">
+          Mọi chi tiết đều được tinh chỉnh nhằm đem lại cảm giác thoải mái
+          nhất suốt cả ngày dài năng động.
+        </p>
+
+        <ul class="spec-list">
+          <li class="spec-item">
+            <div class="spec-icon"><i class="fa-solid fa-wind"></i></div>
+            <div>
+              <h4>Chất Liệu Prime-Knit Siêu Thoáng</h4>
+              <p>
+                Sợi vải dệt thế hệ mới tự động co giãn và thông khí tốt, giảm
+                nhiệt tối đa khi vận động cường độ cao.
+              </p>
+            </div>
+          </li>
+          <li class="spec-item">
+            <div class="spec-icon"><i class="fa-solid fa-cloud"></i></div>
+            <div>
+              <h4>Đệm Khí AuraGlide Cực Êm</h4>
+              <p>
+                Hấp thụ chấn động và hoàn trả lực cực tốt lên tới 85%, bảo vệ
+                khớp cổ chân tối đa.
+              </p>
+            </div>
+          </li>
+          <li class="spec-item">
+            <div class="spec-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div>
+              <h4>Đế Cao Su Chống Trượt Bền Bỉ</h4>
+              <p>
+                Thiết kế gai đế đa hướng từ cao su sinh học tự nhiên mang lại
+                độ bám đường vượt trội trên mọi bề mặt.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials / Social Proof -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-title">Đánh Giá Từ Khách Hàng</span>
+        <h2 class="section-title">Nhận Xét Thực Tế</h2>
+        <p class="section-desc">
+          Hãy lắng nghe cảm nhận của hàng ngàn khách hàng đã và đang đồng hành
+          cùng AURA KICKS.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="quote">
+            "Giày đi siêu êm chân luôn mọi người ơi, kiểu dáng rất hiện đại đi
+            làm hay đi chơi đều hợp. Đã mua đôi thứ hai của shop!"
+          </p>
+          <div class="user-info">
+            <div class="user-avatar" style="
+                  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+                ">
+              HM
+            </div>
+            <div>
+              <h4>Hoàng Minh</h4>
+              <span>Runner Bán Chuyên</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="quote">
+            "Màu trắng đi sang lắm, rất dễ phối đồ. Chất vải thoáng khí không
+            lo bị bí chân. Giao hàng nhanh và đóng gói rất xịn xò."
+          </p>
+          <div class="user-info">
+            <div class="user-avatar" style="
+                  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+                ">
+              TL
+            </div>
+            <div>
+              <h4>Thùy Linh</h4>
+              <span>Fashion Blogger</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="quote">
+            "Thiết kế đen neon nhìn cá tính cực kỳ. Chạy bộ hay tập gym cảm
+            giác lực phản hồi từ đệm khí cực tốt. Vote 5 sao!"
+          </p>
+          <div class="user-info">
+            <div class="user-avatar" style="
+                  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+                ">
+              QA
+            </div>
+            <div>
+              <h4>Quốc Anh</h4>
+              <span>Huấn Luyện Viên Gym</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Newsletter Section -->
+  <section class="newsletter">
+    <div class="container newsletter-container">
+      <div class="newsletter-content">
+        <h2>Tham Gia Cộng Đồng AURA</h2>
+        <p>
+          Đăng ký nhận bản tin để cập nhật những đợt mở bán giới hạn (Limited
+          Drops) sớm nhất và nhận mã giảm giá 10% cho đơn hàng đầu tiên.
+        </p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" placeholder="Nhập địa chỉ email của bạn..." required aria-label="Email nhận ưu đãi">
+          <button type="submit" class="btn btn-primary">Đăng Ký</button>
+        </form>
+        <div id="newsletter-success" class="newsletter-success-msg">
+          🎉 Cảm ơn bạn đã đăng ký! Mã giảm giá đã được gửi tới email của bạn.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">AURA<span>KICKS</span></a>
+        <p>
+          Thương hiệu sneakers cao cấp định hình phong cách sống hiện đại và
+          năng động.
+        </p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#" aria-label="Youtube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4>Danh Mục</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Trang Chủ</a></li>
+          <li><a href="#products">Giày Chạy Bộ</a></li>
+          <li><a href="#products">Giày Thời Trang</a></li>
+          <li><a href="#products">Phụ Kiện</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hỗ Trợ</h4>
+        <ul class="footer-links">
+          <li><a href="#">Chính Sách Đổi Trả</a></li>
+          <li><a href="#">Chính Sách Bảo Hành</a></li>
+          <li><a href="#">Theo Dõi Đơn Hàng</a></li>
+          <li><a href="#">Hướng Dẫn Chọn Size</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Liên Hệ</h4>
+        <ul class="footer-links contact-info">
+          <li>
+            <i class="fa-solid fa-location-dot"></i> 123 Đường Cầu Giấy, Hà
+            Nội
+          </li>
+          <li><i class="fa-solid fa-phone"></i> 1900 8198</li>
+          <li><i class="fa-solid fa-envelope"></i> support@aurakicks.vn</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 AURA KICKS. Thiết kế và phát triển bởi Antigravity.</p>
+    </div>
+  </footer>
+
+  <!-- Shopping Cart Drawer -->
+  <div class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3>Giỏ Hàng Của Bạn</h3>
+      <button class="close-btn" id="cart-close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="cart-items" id="cart-items-container">
+      <!-- Empty Cart Message -->
+      <div class="empty-cart-msg" id="empty-cart-msg">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p>Giỏ hàng của bạn đang trống</p>
+        <a href="#products" class="btn btn-primary btn-sm" id="cart-shop-now">Mua Sắm Ngay</a>
+      </div>
+    </div>
+    <div class="cart-footer" id="cart-footer">
+      <div class="cart-total-row">
+        <span>Tổng cộng:</span>
+        <span class="total-price" id="cart-total-price">0đ</span>
+      </div>
+      <button class="btn btn-primary btn-block" id="checkout-btn">
+        Tiến Hành Thanh Toán
+      </button>
+    </div>
+  </div>
+  <div class="backdrop" id="cart-backdrop"></div>
+
+  <!-- Quick View Modal -->
+  <div class="modal" id="quick-view-modal">
+    <div class="modal-content">
+      <button class="close-btn modal-close-btn" id="modal-close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-body-grid">
+        <div class="modal-image-col">
+          <img src="" alt="Product zoom" id="modal-img">
+        </div>
+        <div class="modal-details-col">
+          <span class="product-cat" id="modal-cat">Sneaker</span>
+          <h3 id="modal-title">Product Title</h3>
+          <div class="price">
+            <span class="new-price" id="modal-price">0đ</span>
+            <span class="old-price" id="modal-old-price">0đ</span>
+          </div>
+          <p class="modal-desc" id="modal-desc">
+            Chất lượng chế tác tỉ mỉ, thiết kế tối tân giúp ôm sát chuyển động
+            bàn chân, tạo nên cảm giác dễ chịu đỉnh cao khi di chuyển.
+          </p>
+
+          <div class="option-group">
+            <span class="option-label">Chọn Size (EU)</span>
+            <div class="size-options" id="size-options">
+              <button class="size-btn">39</button>
+              <button class="size-btn active">40</button>
+              <button class="size-btn">41</button>
+              <button class="size-btn">42</button>
+              <button class="size-btn">43</button>
+            </div>
+          </div>
+
+          <button class="btn btn-primary btn-block" id="modal-add-to-cart-btn">
+            Thêm Vào Giỏ Hàng
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="backdrop" id="modal-backdrop"></div>
+
+  <!-- Custom Toast Notification -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>
